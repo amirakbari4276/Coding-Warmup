@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.header {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 30px auto;
+    width: 85%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+/* cards */
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+.card .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.card .change {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.card .positive {
+    color: green;
+}
+.card .negative {
+    color: red;
+}
+
+
+/* pagination */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.pagination button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+.pagination button:hover {
+    background-color: #ddd;
+}
+.pagination button:disabled {
+    background-color: #f4f4f4;
+    color: #ccc;
+    cursor: not-allowed;
+}
