@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.header {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 30px auto;
+    width: 85%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #003567;
+}
+#weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    padding: 20px 5px;
+    color: #fff;
+}
+.card {
+    background-color: #003567;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    width: 400px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #17BFBA;
+    font-weight: 600;
+}
+.weather-icon {
+    text-align: center;
+    width: 5em;
+    height: 5em;
+}
+.cityname {
+    color: #FFFEFE;
+    text-align: center;
+}
